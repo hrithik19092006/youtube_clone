@@ -1,53 +1,55 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style>
-            .thumbnail1{
-                width: 300px;
-            }
-            .thumb1_div{
-                width:300px;
-                display :inline-block;
-                vertical-align :top;
-                margin-right:15px;
-            }
-            .thumbnail2{
-                width:300px;
-            }
-            .thumb2_div{
-                width: 300px;
-                display:inline-block;
-            }
-            .search-bar{
-                display:block;
-            }
-        </style>
+        <title>Youtube.com clone</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href ="youtube.css">
     </head>
     <body>
         <input class = "search-bar"type = "text" placeholder = "Search">
-        <div class= "thumb1_div">
-            <img class = "thumbnail1" src = "thumbnails/thumbnails.webp">
-            <p class ="thumb1_info">
-                Talking Tech and AI with Google CEO Sundar Pichai!
-            </p>
-            <p class= "thumb1_name">
-                Marques Brownlee
-            </p>
-            <p class ="thumb1_views">
-                3.4M views &#183; 6 months ago
-            </p>
+        <div class= "video1-div">
+            <div>
+                <img class = "thumbnail1" src = "thumbnails/thumbnails.webp">
+            </div>
+            <div class ="channel1-info">
+                <div class ="channel1-div">
+                    <img class="channel1-pic" src="channel-pfp/channel-1.jpeg">
+                </div>
+                <div class = "video1-info1-div">
+                    <p class ="video1-info">
+                    Talking Tech and AI with Google CEO Sundar Pichai!
+                    </p>
+                    <p class= "video1-name">
+                        Marques Brownlee
+                    </p>
+                    <p class ="video1-views">
+                        3.4M views &#183; 6 months ago
+                    </p>
+                </div>
+            </div>
         </div>
-        <div class = "thumb2_div">
-            <img class = "thumbnail2" src = "thumbnails/thumbnail-2.webp">
-            <p class ="thumb2_info">
-                Try Not To Laugh Challenge #9
-            </p>
-            <p class= "thumb2_name">
-                Markiplier
-            </p>
-            <p class ="thumb2_views">
-                19M views &#183; 4 years ago
-            </p>
+        <div class = "video2-div">
+            <div>
+                <img class = "thumbnail2" src = "thumbnails/thumbnail-2.webp">
+            </div>
+            <div class = "channel2-info">
+                <div class ="channel2-div">
+                    <img class ="channel2-pic" src ="channel-pfp/channel-2.jpeg">
+                </div>
+                <div class ="video2-info-div">
+                    <p class ="video2-info">
+                    Try Not To Laugh Challenge #9
+                    </p>
+                    <p class= "video2-name">
+                        Markiplier
+                    </p>
+                    <p class ="video2-views">
+                        19M views &#183; 4 years ago
+                    </p>
+                </div>
+            </div>
         </div>
     </body>
 </html>
