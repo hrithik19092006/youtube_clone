@@ -87,3 +87,7 @@ p{
 .video2-info-div{
     margin-left :10px;
 }
+.grid{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
